@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Nocturnal attack chain diagram">
+  <defs>
+    <style>
+      .box{fill:#ffffff;stroke:#111827;stroke-width:2;rx:16;ry:16}
+      .t{font-family:Arial,Helvetica,sans-serif;font-size:18px;fill:#111827}
+      .s{font-family:Arial,Helvetica,sans-serif;font-size:14px;fill:#374151}
+      .arrow{stroke:#111827;stroke-width:2;fill:none;marker-end:url(#m)}
+    </style>
+    <marker id="m" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L10,3 L0,6 Z" fill="#111827"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="30" y="70" width="220" height="120"/>
+  <text class="t" x="50" y="110">Web App</text>
+  <text class="s" x="50" y="140">Broken access control</text>
+  <text class="s" x="50" y="162">(IDOR)</text>
+
+  <rect class="box" x="300" y="70" width="250" height="120"/>
+  <text class="t" x="320" y="110">Admin Feature</text>
+  <text class="s" x="320" y="140">Command injection</text>
+  <text class="s" x="320" y="162">(RCE)</text>
+
+  <rect class="box" x="600" y="70" width="250" height="120"/>
+  <text class="t" x="620" y="110">Credential Compromise</text>
+  <text class="s" x="620" y="140">Offline cracking</text>
+  <text class="s" x="620" y="162">-> authenticated access</text>
+
+  <rect class="box" x="900" y="70" width="270" height="120"/>
+  <text class="t" x="920" y="110">Internal Service</text>
+  <text class="s" x="920" y="140">Vulnerable component</text>
+  <text class="s" x="920" y="162">-> root compromise</text>
+
+  <path class="arrow" d="M250 130 L300 130"/>
+  <path class="arrow" d="M550 130 L600 130"/>
+  <path class="arrow" d="M850 130 L900 130"/>
+
+  <text class="s" x="30" y="235">Public version: no exploit strings, payloads, credentials, or flags.</text>
+</svg>
