@@ -1,4 +1,10 @@
 ![badges](assets/badges/FuzzRaiders-badge.svg)
+<!-- Public Projects Repo (Typing SVG Header) -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=950&lines=FuzzRaiders+%E2%80%94+Public+Projects;Curated+Offensive+Security+Simulations" alt="FuzzRaiders — Public Projects">
+</p>
+
+---
 
 # FuzzRaiders | Public Projects
 
