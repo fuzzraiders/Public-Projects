@@ -6,8 +6,6 @@
 
 ---
 
-# FuzzRaiders | Public Projects
-
 ![Security](https://img.shields.io/badge/Focus-Offensive%20Security-red?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Repo-Structured%20Projects-blue?style=for-the-badge)
 ![Lab](https://img.shields.io/badge/Env-Authorized%20Lab-green?style=for-the-badge)
